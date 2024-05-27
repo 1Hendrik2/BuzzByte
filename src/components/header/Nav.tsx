@@ -83,7 +83,7 @@ const Nav = () => {
                             <Link to="/sources" className="text-lg mx-2 hover:text-indigo-800">{sources}</Link>
                             <Link to="/my-profile" className="text-lg mx-2 hover:text-indigo-800">{profile}</Link>
                             <HeaderDropdown title={languageDd} buttons={[{name: "English", language: "en"},{name: "German", language: "de"}, {name: "French", language: "fr"}]} onChange={(value) => handleLanguage(value)} />
-                            <Link to="/" className="bg-indigo-950 h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent hover:bg-indigo-800 active:border-white duration-300 active:text-white" onClick={logout}>{logoutB}</Link>
+                            <Link to="/" className="bg-indigo-950 text-lg h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent hover:bg-indigo-800 active:border-white duration-300 active:text-white" onClick={logout}>{logoutB}</Link>
                         </div>
                         <div className="md:hidden">
                             <button onClick={toggleNavbar}>
@@ -97,7 +97,7 @@ const Nav = () => {
                             <Link to="/sources" className="text-lg my-2">{sources}</Link>
                             <Link to="/my-profile" className="text-lg my-2">{profile}</Link>
                             <HeaderDropdown title={languageDd} buttons={[{name: "English", language: "en"},{name: "German", language: "de"}, {name: "French", language: "fr"}]} onChange={(value) => handleLanguage(value)} />
-                            <Link to="/" className=" my-2 bg-indigo-950 h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white" onClick={logout}>{logoutB}</Link>
+                            <Link to="/" className=" my-2 bg-indigo-950 text-lg h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white" onClick={logout}>{logoutB}</Link>
                         </div>
                     )}
                 </>
@@ -107,7 +107,7 @@ const Nav = () => {
                         <div className="hidden w-full md:flex justify-between">
                             <Link to="/" className="my-2 text-lg hover:text-indigo-800">{home}</Link>
                             <HeaderDropdown title={languageDd} buttons={[{name: "English", language: "en"},{name: "German", language: "de"}, {name: "French", language: "fr"}]} onChange={(value) => handleLanguage(value)} />
-                            <Link to="/login" className="my-2 bg-indigo-950 h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white">{login}</Link>
+                            <Link to="/login" className="my-2 bg-indigo-950 text-lg h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white">{login}</Link>
                         </div>
                         <div className="md:hidden">
                             <button onClick={toggleNavbar}>
@@ -119,7 +119,7 @@ const Nav = () => {
                         <div className="flex flex-col items-center basis-full">
                             <Link to="/" className="my-2 text-lg">{home}</Link>
                             <HeaderDropdown title={languageDd} buttons={[{name: "English", language: "en"},{name: "German", language: "de"}, {name: "French", language: "fr"}]} onChange={(value) => handleLanguage(value)} />
-                            <Link to="/login" className="my-2 bg-indigo-950 h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white">{login}</Link>
+                            <Link to="/login" className="my-2 bg-indigo-950 text-lg h-8 w-full flex items-center justify-center font-semibold text-white rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white">{login}</Link>
                         </div>
                     )}
                 </>
