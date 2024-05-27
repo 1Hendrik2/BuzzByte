@@ -50,6 +50,7 @@ export const UserProvider = ({ children } : Props) => {
                     token: token
                 }
                 sessionStorage.setItem("user", JSON.stringify(userObj));
+                sessionStorage.setItem("language", "en");
                 dispatch(setToken(token!));
                 dispatch(setUser(userObj!));
                 toast.success("Login Success!");

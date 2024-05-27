@@ -38,15 +38,15 @@ const HomePageInfo = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="flex flex-col items-center">
-                <Newspaper size="48" />
+                <Newspaper size="96" />
                 <p className="mt-5 text-indigo-900 text-lg text-center">{text1}</p>
             </div>
             <div className="flex flex-col items-center">
-                <Clock size="48" />
+                <Clock size="96" />
                 <p className="mt-5 text-indigo-900 text-lg text-center">{text2}</p>
             </div>
             <div className="flex flex-col items-center">
-                <Calendar size="48" />
+                <Calendar size="96" />
                 <p className="mt-5 text-indigo-900 text-lg text-center">{text3}</p>
             </div>
         </div>
